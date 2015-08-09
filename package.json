@@ -1,0 +1,22 @@
+{
+  "name": "jsonmeta",
+  "version": "0.0.1",
+  "description": "A JSON format analyzer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nabeix/jsonmeta.git"
+  },
+  "author": "Yusuke Watanabe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nabeix/jsonmeta/issues"
+  },
+  "homepage": "https://github.com/nabeix/jsonmeta",
+  "dependencies": {
+    "commander": "^2.8.1"
+  }
+}

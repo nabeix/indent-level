@@ -1,3 +1,3 @@
 # jsonmeta
 
-An analyzer for JSON format.
+A JSON format analyzer.
