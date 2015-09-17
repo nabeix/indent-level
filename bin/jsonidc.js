@@ -2,7 +2,7 @@
 
 var program = require('commander');
 var fs = require('fs');
-var JsonMeta = require('../');
+var JsonIDC = require('../');
 
 program
   .version(require('../package.json').version)
@@ -18,6 +18,6 @@ var encoding = program.encoding ? program.encoding : 'utf8';
 var jsonPath  = program.args[0];
 
 
-var jsonMeta = new JsonMeta();
+var jsonIDC = new JsonIDC();
 
-fs.createReadStream(jsonPath).pipe(jsonMeta).pipe(process.stdout);
+fs.createReadStream(jsonPath).pipe(jsonIDC).pipe(process.stdout);

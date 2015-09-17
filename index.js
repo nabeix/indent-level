@@ -1,1 +1,1 @@
-exports = module.exports = require('./lib/jsonmeta');
+exports = module.exports = require('./lib/jsonidc');

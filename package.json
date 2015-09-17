@@ -1,21 +1,21 @@
 {
-  "name": "jsonmeta",
+  "name": "jsonidc",
   "version": "0.0.1",
-  "description": "A JSON format analyzer.",
+  "description": "A JSON Indent Counter.",
   "main": "index.js",
   "scripts": {
     "test": "npm test"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/nabeix/jsonmeta.git"
+    "url": "git://github.com/nabeix/jsonidc.git"
   },
   "author": "Yusuke Watanabe",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nabeix/jsonmeta/issues"
+    "url": "https://github.com/nabeix/jsonidc/issues"
   },
-  "homepage": "https://github.com/nabeix/jsonmeta",
+  "homepage": "https://github.com/nabeix/jsonidc",
   "dependencies": {
     "commander": "^2.8.1"
   }
