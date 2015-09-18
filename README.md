@@ -1,5 +1,5 @@
-# jsonmeta
+# jsonidc
 
-A JSON format analyzer.
+A indent counter for JSON.
 
 ### WIP.
