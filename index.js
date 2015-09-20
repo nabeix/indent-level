@@ -1,1 +1,1 @@
-exports = module.exports = require('./lib/jsonidc');
+exports = module.exports = require('./lib/indent-level');

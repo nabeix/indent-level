@@ -2,7 +2,7 @@
 
 var program = require('commander');
 var fs = require('fs');
-var JsonIDC = require('../');
+var IndentLevel = require('../');
 
 program
   .version(require('../package.json').version)
@@ -15,9 +15,9 @@ if (program.args.length < 1) {
 }
 
 var encoding = program.encoding ? program.encoding : 'utf8';
-var jsonPath  = program.args[0];
+var filePath  = program.args[0];
 
 
-var jsonIDC = new JsonIDC();
+var indentLevel = new IndentLevel();
 
-fs.createReadStream(jsonPath).pipe(jsonIDC).pipe(process.stdout);
+fs.createReadStream(filePath).pipe(indentLevel).pipe(process.stdout);
