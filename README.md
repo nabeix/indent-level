@@ -2,7 +2,13 @@
 
 A indent level analyzer and visualizer.
 
-### Usage
+## Install
+
+TODO:
+
+## Usage
+
+#### Command
 
 ```
 indent-level test/simple.txt
@@ -18,6 +24,7 @@ level0
        level3
               level4
 ```
+#### Result
 
 ```
 1:0 level0 |      |
@@ -29,11 +36,18 @@ level0
 7:4 |  | | |      level4
 ```
 
+
+#### Format
+
 ```
 1:0 level0 |      |
-
+⋀ ⋀  ⋀
 | |  |
 | |  +- Text
 | +---- Indent level
 +------ Line number
 ```
+
+## License
+
+MIT
