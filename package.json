@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/nabeix/jsonidc",
   "dependencies": {
+    "ansicolors": "^0.3.2",
     "commander": "^2.8.1"
   }
 }
